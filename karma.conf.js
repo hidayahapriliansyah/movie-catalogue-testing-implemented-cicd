@@ -37,7 +37,7 @@ module.exports = function (config) {
       plugins: [
         new Dotenv({
           path: path.resolve(__dirname, '.env'),
-          stystemvars: true,
+          systemvars: true,
           safe: true,
         }),
       ],
